@@ -1,0 +1,11 @@
+This is a League Bowling Database using Spring/JPA/Hibernate/MySQL/LifeRay Portal/Vaadin
+
+The following Entities will tracked.
+
+@Entity
+League --> Team --> Player --> Game --> Frame
+
+Let me know if you have any ideas
+
+Dan Idoux
+didoux@gmail.com
