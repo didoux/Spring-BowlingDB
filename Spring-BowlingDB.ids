@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="bowling" product="MySQL" version="5.1.59-community" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )" uuid="eeb48398-4097-4b59-82ff-fd585582a24c">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost:3307/bowling</jdbc-url>
+    <user-name>dan</user-name>
+    <user-password>dfccdfdfdfc4df9edfcbdfc6dfc6</user-password>
+    <schema-pattern>bowling.*</schema-pattern>
+    <default-schemas>bowling.*</default-schemas>
+    <default-dialect>MySQL</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/mysql-connector-java-5.1.18-bin.jar!/</url>
+      </library>
+      <library>
+        <url>file://$PROJECT_DIR$/mysql-connector-license.txt</url>
+      </library>
+    </libraries>
+    <table name="frame" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
+      <column name="game_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="throw1" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="throw2" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="throw3" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <primary-key name="PRIMARY" columns="id" />
+      <index name="game_id" unique="false" columns="game_id" />
+    </table>
+    <table name="game" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="player_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="game_dt" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91" />
+      <column name="lane_nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <primary-key name="PRIMARY" columns="id" />
+      <index name="player_id" unique="false" columns="player_id" />
+    </table>
+    <table name="league" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12" />
+      <column name="start_dt" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93" />
+      <column name="external_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <primary-key name="PRIMARY" columns="id" />
+    </table>
+    <table name="player" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="team_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12" />
+      <column name="external_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <primary-key name="PRIMARY" columns="id" />
+      <index name="team_id" unique="false" columns="team_id" />
+    </table>
+    <table name="team" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="league_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12" />
+      <column name="team_nbr" sqlType="VARCHAR" length="2" precision="0" nullable="false" jdbcType="12" />
+      <column name="external_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <primary-key name="PRIMARY" columns="id" />
+      <index name="league_id" unique="false" columns="league_id" />
+    </table>
+  </data-source>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="application" class="bowling.application.BowlingStoreApplication">
+        <property name="authenticator" ref="authenticator"/>
+        <property name="mainController" ref="mainController"/>
+    </bean>
+
+    <import resource="user-context.xml"/>
+    <import resource="menu-context.xml"/>
+    <import resource="navigation-context.xml"/>
+    <import resource="authentication-context.xml"/>
+    <import resource="mvc-context.xml"/>
+    <import resource="table-context.xml"/>
+    <import resource="service-context.xml"/>
+    <import resource="dao-context.xml"/>
+    <import resource="hibernate-context.xml"/>
+
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="mediaStoreService" class="mediastore.service.impl.MediaStoreServiceImpl">
+        <property name="mediaStoreDao" ref="mediaStoreDao"/>
+    </bean>
+    
+    <bean id="mediaLibraryService" class="mediastore.service.impl.MediaLibraryServiceImpl">
+        <property name="mediaLibraryDao" ref="mediaLibraryDao"/>
+    </bean>
+
+
+</beans>
