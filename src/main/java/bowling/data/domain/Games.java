@@ -7,7 +7,7 @@ import java.io.Serializable;
  * Created by IntelliJ IDEA.
  * User: pnamatya
  * Date: 4/1/12
- * Time: 7:24 PM
+ * Time: 7:24 PM       this is test
  * To change this template use File | Settings | File Templates.
  */
 @Entity
