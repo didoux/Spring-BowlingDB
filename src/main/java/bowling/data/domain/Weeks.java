@@ -1,12 +1,4 @@
 
-
-/**
- * Created by IntelliJ IDEA.
- * User: pnamatya
- * Date: 4/1/12
- * Time: 9:28 PM
- * To change this template use File | Settings | File Templates.
- */
 package bowling.data.domain;
 
 import javax.persistence.*;
