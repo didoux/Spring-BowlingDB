@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76755761-9a07-4e9b-995f-5651dd3ac472" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Frame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Game.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Throw.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Week.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bowlingDB/src/main/java/com/idoux/bowlingDB/data/domain/League.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bowlingDB/src/main/java/com/idoux/bowlingDB/data/domain/Player.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bowlingDB/src/main/java/com/idoux/bowlingDB/data/domain/Team.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-BowlingDB.iml" afterPath="$PROJECT_DIR$/Spring-BowlingDB.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-BowlingDB.ipr" afterPath="$PROJECT_DIR$/Spring-BowlingDB.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-BowlingDB.iws" afterPath="$PROJECT_DIR$/Spring-BowlingDB.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Team.java" afterPath="$PROJECT_DIR$/src/main/java/bowling/data/domain/Team.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bowling/data/schema/cr8ddl_BowlingDB.sql" afterPath="$PROJECT_DIR$/src/main/resources/bowling/data/schema/cr8ddl_BowlingDB.sql" />
     </list>
     <ignored path="Spring-BowlingDB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,46 +76,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Player.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java">
+      <file leaf-file-name="Frame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Frame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.24175824">
+            <state line="18" column="46" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="League.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bowlingDB/src/main/java/com/idoux/bowlingDB/data/domain/League.java">
+      <file leaf-file-name="bowling" pinned="true" current="false" current-in-tab="false">
+        <entry file="mock:///bowling">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
+      <file leaf-file-name="bowling" pinned="true" current="false" current-in-tab="false">
+        <entry file="mock:///bowling">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="Week.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Week.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+            <state line="16" column="17" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Throw.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Throw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="0.13186814">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bowling..game" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbElement:/Spring-BowlingDBa47d10f8/eeb48398-4097-4b59-82ff-fd585582a24c/bowling..game">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="League.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="548" selection-end="555" vertical-scroll-proportion="0.0">
+            <state line="22" column="16" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="21" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,43 +158,7 @@
       <file leaf-file-name="Team.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialData.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/initialData.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/schema.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cr8ddl_BowlingDB.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/cr8ddl_BowlingDB.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bowling_data.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/bowling_data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,20 +177,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/src/bowling/data/domain/League.java" />
-        <option value="$PROJECT_DIR$/src/domain/League.java" />
-        <option value="$PROJECT_DIR$/src/bowling/domain/League.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bowling/domain/League.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bowling/domain/bowling/data/domain/League.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mediastore/context/hibernate-context.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mediastore/context/application-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bowling/data/hibernate.cfg.xml" />
         <option value="/bowling" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Frames.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bowling/data/schema/cr8ddl_BowlingDB.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Weeks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Games.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Frame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Throw.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Week.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Team.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bowling/data/domain/Game.java" />
       </list>
     </option>
   </component>
@@ -315,6 +325,38 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-BowlingDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-BowlingDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-BowlingDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-BowlingDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -387,27 +429,28 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.side.proportion" value="0.34615386" />
+    <property name="project.structure.side.proportion" value="0.12703963" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/bowling/data/domain" />
       <recent name="C:\Development\Spring-BowlingDB\src" />
       <recent name="C:\Development\Spring-BowlingDB\src\main\resources\bowling\data\schema" />
       <recent name="C:\Development\Spring-BowlingDB\src\main" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="example" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bowling" />
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\Spring-BowlingDB\web\WEB-INF" />
       <recent name="C:\Development\Spring-BowlingDB\src" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="bowling" />
-      <recent name="" />
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="example" />
     </key>
   </component>
   <component name="RunManager" selected="Application.HelloWorld">
@@ -641,15 +684,17 @@
     <frame x="0" y="0" width="1440" height="922" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297414" sideWeight="0.6705128" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25431034" sideWeight="0.6705128" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.49425286" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.5007184" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.49784482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.49425286" order="7" side_tool="false" content_ui="tabs" />
@@ -661,10 +706,8 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902297" sideWeight="0.6705128" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.49712643" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -728,38 +771,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/context/hibernate-context.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="753" selection-end="753" vertical-scroll-proportion="1.6142857" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/context/menu-context.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/context/dao-context.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="413" selection-end="423" vertical-scroll-proportion="-1.7" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/context/application-context.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="61" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.2142857" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="31" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" />
@@ -768,11 +779,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="75" selection-start="409" selection-end="418" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bowlingDB/src/main/java/com/idoux/bowlingDB/data/domain/League.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
@@ -787,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="548" selection-end="555" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/initialData.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -807,19 +803,68 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/cr8ddl_BowlingDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/bowling_data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bowling/data/schema/cr8ddl_BowlingDB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1199" selection-end="1257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbElement:/Spring-BowlingDBa47d10f8/eeb48398-4097-4b59-82ff-fd585582a24c/bowling..game">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Throw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Week.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.24175824">
+        <state line="12" column="21" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/League.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bowling/data/domain/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="0.13186814">
           <folding />
         </state>
       </provider>
@@ -882,7 +927,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.34615386" />
+                <option value="0.12703963" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -902,11 +948,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>AppEngine API</last-edited>
+          <last-edited>Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0-Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.34615386" />
+                <option value="0.12703963" />
               </list>
             </option>
           </splitter-proportions>

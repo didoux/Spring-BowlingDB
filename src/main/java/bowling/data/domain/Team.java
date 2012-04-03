@@ -10,17 +10,17 @@ import java.io.Serializable;
  * Time: 12:01 AM
  */
 @Entity
-@Table(name = "team")
+@Table(name = "Team")
 public class Team implements Serializable {
 
-    Long id;
-    String name;
-    String externalId;
+    private Long id;
+    private String name;
+    private String externalId;
     private League league;
 
     @Id
     @Column(name = "id")
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
         return id;
     }
