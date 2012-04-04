@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="ArtifactManager">
+    <artifact type="jar" name="Spring-BowlingDB:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/Spring_BowlingDB_war_exploded</output-path>
+      <root id="archive" name="Spring-BowlingDB_war exploded.jar">
+        <element id="javaee-facet-resources" facet="Spring-BowlingDB/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Spring-BowlingDB" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="AppEngine API" />
+            <element id="library" level="project" name="AppEngine ORM" />
+            <element id="library" level="project" name="hibernate-4.1.1" />
+            <element id="library" level="project" name="JPA 2.0-2.0" />
+            <element id="library" level="project" name="spring-3.1.0" />
+            <element id="library" level="project" name="spring-ws-2.0.2" />
+            <element id="library" level="project" name="spring-webflow-2.3.0" />
+            <element id="library" level="project" name="spring-security-3.0.5" />
+            <element id="library" level="project" name="spring-integration-2.0.5" />
+            <element id="library" level="project" name="spring-data-jpa-1.0.0" />
+            <element id="library" level="project" name="spring-mvc-3.0.0.RELEASE" />
+            <element id="library" level="project" name="Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0-Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing enabled="false" useClasspath="true" />
+  </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DataSourceManagerImpl" compressed="false" hash="3754228917" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="688E856202C4C91DD753612F06426B52" />
+  <component name="Palette2">
+    <group name="Swing">
+      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+      </item>
+      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+        <initial-values>
+          <property name="text" value="Button" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="RadioButton" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="CheckBox" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="Label" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+          <preferred-size width="-1" height="20" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+      </item>
+    </group>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-BowlingDB.iml" filepath="$PROJECT_DIR$/Spring-BowlingDB.iml" />
+    </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component name="libraryTable">
+    <library name="AppEngine API">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user" recursive="false" />
+    </library>
+    <library name="AppEngine ORM">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user/orm" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-appengine-1.0.10.final-src.zip!/" />
+        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-core-1.1.5-src.zip!/datanucleus-core-1.1.5/src/java" />
+        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-enhancer-1.1.4-src.zip!/" />
+        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-jpa-1.1.5-src.zip!/datanucleus-jpa-1.1.5/src/java" />
+        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/jdo2-api-2.3-SNAPSHOT-src.zip!/" />
+      </SOURCES>
+      <jarDirectory url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user/orm" recursive="false" />
+    </library>
+    <library name="Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0-Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/FastInfoset.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/http.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxb-api.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxb-impl.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxb-xjc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxws-api.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxws-rt.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jaxws-tools.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jsr173_api.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jsr181-api.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jsr250-api.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/resolver.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/saaj-api.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/saaj-impl.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/sjsxp.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/stax-ex.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/streambuffer.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="hibernate-4.1.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-core-4.1.1.Final.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-commons-annotations-4.0.1.Final.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/antlr-2.7.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javassist-3.15.0-GA.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.1.0.GA.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="JPA 2.0-2.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-3.1.0" type="spring">
+      <properties version="3.1.0" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-core.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-aop.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-asm.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-aspects.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-beans.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-context-support.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-context.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-expression.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-instrument-tomcat.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-instrument.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-orm.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-oxm.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-test.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-tx.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/aopalliance.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-data-jpa-1.0.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-data-jpa-1.0.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-data-commons-core-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-integration-2.0.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-core.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-event.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-feed.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-file.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-ftp.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-groovy.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-http.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-httpinvoker.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-ip.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-jdbc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-jmx.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-mail.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-rmi.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-security.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-sftp.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-stream.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-test.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-twitter.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-ws.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-xml.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-integration-xmpp.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-mvc-3.0.0.RELEASE" type="spring-mvc">
+      <properties version="3.0.0.RELEASE" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-security-3.0.5" type="spring-security">
+      <properties version="3.0.5" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-acl.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-aspects.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-cas-client.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-config.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-core.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-ldap.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-openid.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-taglibs.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-web.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-webflow-2.3.0" type="spring-webflow">
+      <properties version="2.3.0" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework.binding.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework.faces.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework.js.resources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework.js.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework.webflow.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-ws-2.0.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-ws.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
+
