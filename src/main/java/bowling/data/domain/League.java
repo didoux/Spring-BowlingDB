@@ -20,7 +20,7 @@ import java.util.Set;
  */
 
 @Entity
-@Table(name = "league")
+@Table(name = "League")
 public class League implements Serializable {
 
     private Long id;
@@ -42,7 +42,7 @@ public class League implements Serializable {
 
     @Id
     @Column(name = "id")
-    @GeneratedValue(strategy = javax.persistence.GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
         return id;
     }

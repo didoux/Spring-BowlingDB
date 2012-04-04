@@ -10,17 +10,17 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "player")
+@Table(name = "Player")
 public class Player {
 
-    Long id;
-    String externalId;
-    String name;
+    private Long id;
+    private String externalId;
+    private String name;
     private Team team;
 
     @Id
     @Column(name = "id")
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
         return id;
     }

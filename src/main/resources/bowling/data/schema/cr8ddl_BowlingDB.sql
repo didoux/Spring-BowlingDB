@@ -1,5 +1,4 @@
 drop table league;
-
 create table league(
 	id BIGINT NOT NULL,
 	name varchar(255) NOT NULL,
