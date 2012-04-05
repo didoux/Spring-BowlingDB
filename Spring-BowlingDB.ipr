@@ -390,8 +390,7 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="spring-3.1.0" type="spring">
-      <properties version="3.1.0" />
+    <library name="spring-3.1.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/spring-core.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring-aop.jar!/" />
@@ -451,8 +450,7 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="spring-mvc-3.0.0.RELEASE" type="spring-mvc">
-      <properties version="3.0.0.RELEASE" />
+    <library name="spring-mvc-3.0.0.RELEASE">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
@@ -460,8 +458,7 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="spring-security-3.0.5" type="spring-security">
-      <properties version="3.0.5" />
+    <library name="spring-security-3.0.5">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/spring-security-acl.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring-security-aspects.jar!/" />
@@ -476,8 +473,7 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="spring-webflow-2.3.0" type="spring-webflow">
-      <properties version="2.3.0" />
+    <library name="spring-webflow-2.3.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/org.springframework.binding.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/org.springframework.faces.jar!/" />
