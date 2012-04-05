@@ -11,7 +11,7 @@ import java.io.Serializable;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-@Table(name = "frame")
+@Table(name = "Frame")
 public class Frame implements Serializable {
     private Long id;
     private int nbr; // Frame Number
@@ -29,6 +29,15 @@ public class Frame implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @Column(name = "nbr")
+    public int getNbr() {
+        return nbr;
+    }
+
+    public void setNbr(int nbr) {
+        this.nbr = nbr;
     }
 
     @Column(name = "laneNbr")

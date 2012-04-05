@@ -15,6 +15,7 @@ public class Team implements Serializable {
 
     private Long id;
     private String name;
+    private String nbr;
     private String externalId;
     private League league;
 
@@ -36,6 +37,14 @@ public class Team implements Serializable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getNbr() {
+        return nbr;
+    }
+
+    public void setNbr(String nbr) {
+        this.nbr = nbr;
     }
 
     @Column(name = "external_id")

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="AppEngine API">
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/appengine-api-1.0-sdk-1.6.4.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/appengine-api-labs-1.6.4.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/appengine-jsr107cache-1.6.4.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/jsr107cache-1.1.jar" />
+  </library>
+  <library name="AppEngine ORM">
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/orm/datanucleus-appengine-1.0.10.final.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/orm/datanucleus-core-1.1.5.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/orm/datanucleus-jpa-1.1.5.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/orm/geronimo-jpa_3.0_spec-1.1.1.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/orm/geronimo-jta_1.1_spec-1.1.1.jar" />
+    <archive path="C:/Development/appengine-java-sdk-1.6.4/lib/user/orm/jdo2-api-2.3-eb.jar" />
+  </library>
+  <library name="Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0-Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0">
+    <archive path="C:/Development/Spring-BowlingDB/lib/activation.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/FastInfoset.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/http.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jaxb-api.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jaxb-impl.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jaxb-xjc.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jaxws-api.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jaxws-rt.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jaxws-tools.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jsr173_api.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jsr181-api.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jsr250-api.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/resolver.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/saaj-api.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/saaj-impl.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/sjsxp.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/stax-ex.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/streambuffer.jar" />
+  </library>
+  <library name="hibernate-4.1.1">
+    <archive path="C:/Development/Spring-BowlingDB/lib/hibernate-core-4.1.1.Final.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/hibernate-commons-annotations-4.0.1.Final.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/antlr-2.7.7.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/dom4j-1.6.1.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/javassist-3.15.0-GA.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jboss-logging-3.1.0.GA.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
+  </library>
+  <library name="JPA 2.0-2.0">
+    <archive path="C:/Development/Spring-BowlingDB/lib/javax.persistence.jar" />
+  </library>
+  <library name="spring-3.1.0">
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-core.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-aop.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-asm.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-aspects.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-beans.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-context-support.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-context.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-expression.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-instrument-tomcat.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-instrument.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-jdbc.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-jms.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-orm.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-oxm.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-test.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-tx.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/commons-logging.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/aopalliance.jar" />
+  </library>
+  <library name="spring-data-jpa-1.0.0">
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-data-jpa-1.0.0.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-data-commons-core-1.1.0.jar" />
+  </library>
+  <library name="spring-integration-2.0.5">
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-core.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-event.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-feed.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-file.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-ftp.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-groovy.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-http.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-httpinvoker.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-ip.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-jdbc.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-jms.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-jmx.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-mail.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-rmi.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-security.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-sftp.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-stream.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-test.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-twitter.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-ws.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-xml.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-integration-xmpp.jar" />
+  </library>
+  <library name="spring-mvc-3.0.0.RELEASE">
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-webmvc.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-web.jar" />
+  </library>
+  <library name="spring-security-3.0.5">
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-acl.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-aspects.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-cas-client.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-config.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-core.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-ldap.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-openid.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-taglibs.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-security-web.jar" />
+  </library>
+  <library name="spring-webflow-2.3.0">
+    <archive path="C:/Development/Spring-BowlingDB/lib/org.springframework.binding.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/org.springframework.faces.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/org.springframework.js.resources.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/org.springframework.js.jar" />
+    <archive path="C:/Development/Spring-BowlingDB/lib/org.springframework.webflow.jar" />
+  </library>
+  <library name="spring-ws-2.0.2">
+    <archive path="C:/Development/Spring-BowlingDB/lib/spring-ws.jar" />
+  </library>
+</eclipse-userlibraries>
+
