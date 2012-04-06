@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<decorators defaultdir="/WEB-INF/sitemesh-decorators">
+	<excludes>
+	    <pattern>/j_spring_security_logout</pattern>
+	    <pattern>/pages/logout-redirect.jsp</pattern>
+	    <pattern>/flexweb/*</pattern>
+	    <pattern>/ApplicationScaffold.html</pattern>
+	</excludes>
+	
+    <decorator name="main" page="main.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+    <decorator name="panel" page="panel.jsp"/>
+    <decorator name="printable" page="printable.jsp"/>
+</decorators>

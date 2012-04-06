@@ -1,0 +1,6 @@
+#org.skyway.core settings
+#Fri Apr 06 06:33:03 CDT 2012
+version=10.0.0.qualifier
+default.top.level.package=bowling
+models.folder.name=.springDSL
+initialized=true

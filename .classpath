@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/test/java"/>
-	<classpathentry kind="src" path="src/test/resources"/>
-	<classpathentry kind="src" path="src/test"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate-4.1.1"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JPA 2.0-2.0"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-3.1.0"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-ws-2.0.2"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-webflow-2.3.0"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-security-3.0.5"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-integration-2.0.5"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-data-jpa-1.0.0"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-mvc-3.0.0.RELEASE"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ JWSDP 2.0"/>
-	<classpathentry kind="output" path="out/production/Spring-BowlingDB"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_EM"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_CORE"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="src" path="generated"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.aopalliance.AOPALLIANCE_1_0"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.apache.commons.APACHE_COMMONS_1_8"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.apache.commons.APACHE_COMMONS_CODEC_1_5"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.apache.commons.Apache_DBCP_1_3"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.apache.commons.APACHE_COMMONS_IO_1_4"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.apache.commons.APACHE_COMMONS_LANG_2_5"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.atomikos.ATOMIKOS_3_6_4"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.cxf.CXF_2_1_9"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.cxf.CXF_SUPPORT_2_1_9"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.web.DWR_2_0_5"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.derby.Derby_10_1_1_0"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.google.guice.GOOGLE_GUICE_3_0"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.hibernate.Hibernate_Core_35"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.json.jackson.JSON_JACKSON_16"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.spring.JSTL_1_2"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.logging.Logging_1_5_10"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.postgres.PostgresJDBC_8_3"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.web.SiteMesh_2_4"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.skyway.SkywaySpringUtils_7_1_3"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.spring.Spring_Core_3"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.spring.Spring_MVC_3"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.spring.Spring_Security_3_0_0"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.spring.Spring_WebFlow_2"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.flex.Flex_BlazeDS"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.google.gin.GOOGLE_GIN_1_0"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.json.JSON_20090211"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.jsf.Mojarra_2_0_3"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.jsf.PrimeFaces_2_1"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.springflex.Spring_Flex"/>
+	<classpathentry kind="con" path="melibrary.com.skyway.myeclipseforspring.lib.validation.Validation_1_0"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
