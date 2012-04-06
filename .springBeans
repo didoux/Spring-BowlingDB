@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[2.7.1.me201110252317]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>resources/Spring-BowlingDB-dao-context.xml</config>
+		<config>resources/Spring-BowlingDB-security-context.xml</config>
+		<config>resources/Spring-BowlingDB-service-context.xml</config>
+		<config>resources/Spring-BowlingDB-web-context.xml</config>
+		<config>WEB-INF/WEB-INF/applicationContext.xml</config>
+		<config>web/WEB-INF/applicationContext.xml</config>
+	</configs>
+	<configSets>
+	</configSets>
+	<springVersion>2.5</springVersion>
+</beansProjectDescription>

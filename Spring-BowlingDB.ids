@@ -21,30 +21,30 @@
       <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
       <column name="game_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
       <column name="nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
-      <column name="throw1" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
-      <column name="throw2" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
-      <column name="throw3" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="lane_nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="notes" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
       <primary-key name="PRIMARY" columns="id" />
       <index name="game_id" unique="false" columns="game_id" />
     </table>
     <table name="game" schema="" catalog="bowling" type="TABLE">
-      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
       <column name="player_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="week_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
       <column name="nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
-      <column name="game_dt" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91" />
-      <column name="lane_nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="starting_lane_nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="score" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
       <primary-key name="PRIMARY" columns="id" />
       <index name="player_id" unique="false" columns="player_id" />
     </table>
     <table name="league" schema="" catalog="bowling" type="TABLE">
-      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
       <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12" />
       <column name="start_dt" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93" />
       <column name="external_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
       <primary-key name="PRIMARY" columns="id" />
     </table>
     <table name="player" schema="" catalog="bowling" type="TABLE">
-      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
       <column name="team_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
       <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12" />
       <column name="external_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
@@ -52,7 +52,7 @@
       <index name="team_id" unique="false" columns="team_id" />
     </table>
     <table name="team" schema="" catalog="bowling" type="TABLE">
-      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
       <column name="league_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
       <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12" />
       <column name="team_nbr" sqlType="VARCHAR" length="2" precision="0" nullable="false" jdbcType="12" />
@@ -60,5 +60,42 @@
       <primary-key name="PRIMARY" columns="id" />
       <index name="league_id" unique="false" columns="league_id" />
     </table>
+    <table name="throw" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
+      <column name="frame_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <column name="nbr" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="nbrOfPinsDown" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="1PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="2PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="3PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="4PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="5PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="6PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="7PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="8PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="9PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="10PIN" sqlType="BIT" length="1" precision="0" nullable="true" jdbcType="-7" />
+      <column name="pinBinaryArray" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="ballNameTxt" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="target" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="position" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="noteTxt" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12" />
+      <primary-key name="PRIMARY" columns="id" />
+      <index name="frame_id" unique="false" columns="frame_id" />
+    </table>
+    <table name="week" schema="" catalog="bowling" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true" />
+      <column name="weekNumber" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" />
+      <column name="date" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91" />
+      <column name="team_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" />
+      <primary-key name="PRIMARY" columns="id" />
+      <index name="team_id" unique="false" columns="team_id" />
+    </table>
+  </data-source>
+  <data-source source="LOCAL" name="src:main:resources:bowling:data:hibernate.cfg.xml" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="a6501420-4889-4d5b-ad59-c3a652794255">
+    <jdbc-driver>org.hsqldb.jdbcDriver</jdbc-driver>
+    <jdbc-url>jdbc:hsqldb:mem:BowlingDB</jdbc-url>
+    <user-name>sa</user-name>
+    <libraries />
   </data-source>
 </component>
