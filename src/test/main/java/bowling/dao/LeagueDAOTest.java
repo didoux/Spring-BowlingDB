@@ -37,7 +37,7 @@ import java.text.SimpleDateFormat;
         TransactionalTestExecutionListener.class })
 @Transactional
 @ContextConfiguration(locations = {
-        "file:Spring-BowlingDB-dao-context.xml" })
+        "classpath:Spring-BowlingDB-dao-test-context.xml" })
 public class LeagueDAOTest {
     /**
      * The DAO being tested, injected by Spring
