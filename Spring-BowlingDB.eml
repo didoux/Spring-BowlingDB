@@ -2,9 +2,11 @@
 <component inherit-compiler-output="true">
 	<output-test url="file://$MODULE_DIR$/out/test/Spring-BowlingDB"/>
 	<contentEntry url="file://$MODULE_DIR$">
-		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/main/java"/>
 		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
-		<testFolder url="file://$MODULE_DIR$/src/test"/>
-		<excludeFolder url="file://$MODULE_DIR$/src/test/resources"/>
 	</contentEntry>
+	<lib name="mysql-connector-java-5.1.18-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.18-bin.jar!/"/>
+	</lib>
+	<lib name="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 11.1\lib\junit-4.10.jar" scope="TEST"/>
 </component>

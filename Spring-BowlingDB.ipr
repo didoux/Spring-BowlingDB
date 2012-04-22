@@ -29,6 +29,17 @@
         </element>
       </root>
     </artifact>
+    <artifact type="exploded-war" name="Spring-BowlingDB:Web exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/Spring_BowlingDB_Web_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Spring-BowlingDB/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="javaee-facet-classes" facet="Spring-BowlingDB/web/Web" />
+          </element>
+        </element>
+      </root>
+    </artifact>
   </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
@@ -383,6 +394,21 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Java EE 6-Java EE 6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="JPA 2.0-2.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
@@ -410,6 +436,31 @@
         <root url="jar://$PROJECT_DIR$/lib/spring-tx.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/aopalliance.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="spring-3.1.0 (2)" type="spring">
+      <properties version="3.1.0" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-core.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-aop.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-asm.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-aspects.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-beans.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-context-support.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-context.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-expression.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-instrument-tomcat.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-instrument.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-jdbc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-jms.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-orm.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-oxm.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-test.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-tx.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/commons-logging.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/aopalliance.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
