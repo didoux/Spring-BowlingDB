@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component inherit-compiler-output="true">
+<component inherit-compiler-output="true" inheritJdk="true">
 	<output-test url="file://$MODULE_DIR$/out/test/Spring-BowlingDB"/>
 	<contentEntry url="file://$MODULE_DIR$">
 		<testFolder url="file://$MODULE_DIR$/src/test/main/java"/>
@@ -8,5 +8,7 @@
 	<lib name="mysql-connector-java-5.1.18-bin.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.18-bin.jar!/"/>
 	</lib>
-	<lib name="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 11.1\lib\junit-4.10.jar" scope="TEST"/>
+	<lib name="junit-4.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/junit-4.7.jar!/"/>
+	</lib>
 </component>

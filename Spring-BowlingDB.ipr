@@ -13,18 +13,9 @@
             <element id="module-output" name="Spring-BowlingDB" />
           </element>
           <element id="directory" name="lib">
-            <element id="library" level="project" name="AppEngine API" />
-            <element id="library" level="project" name="AppEngine ORM" />
             <element id="library" level="project" name="hibernate-4.1.1" />
             <element id="library" level="project" name="JPA 2.0-2.0" />
             <element id="library" level="project" name="spring-3.1.0" />
-            <element id="library" level="project" name="spring-ws-2.0.2" />
-            <element id="library" level="project" name="spring-webflow-2.3.0" />
-            <element id="library" level="project" name="spring-security-3.0.5" />
-            <element id="library" level="project" name="spring-integration-2.0.5" />
-            <element id="library" level="project" name="spring-data-jpa-1.0.0" />
-            <element id="library" level="project" name="spring-mvc-3.0.0.RELEASE" />
-            <element id="library" level="project" name="Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0-Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0" />
           </element>
         </element>
       </root>
@@ -334,52 +325,6 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
-    <library name="AppEngine API">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user" recursive="false" />
-    </library>
-    <library name="AppEngine ORM">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user/orm" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-appengine-1.0.10.final-src.zip!/" />
-        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-core-1.1.5-src.zip!/datanucleus-core-1.1.5/src/java" />
-        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-enhancer-1.1.4-src.zip!/" />
-        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/datanucleus-jpa-1.1.5-src.zip!/datanucleus-jpa-1.1.5/src/java" />
-        <root url="jar://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/src/orm/jdo2-api-2.3-SNAPSHOT-src.zip!/" />
-      </SOURCES>
-      <jarDirectory url="file://$PROJECT_DIR$/../appengine-java-sdk-1.6.4/lib/user/orm" recursive="false" />
-    </library>
-    <library name="Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0-Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/FastInfoset.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/http.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxb-api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxb-impl.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxb-xjc.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxws-api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxws-rt.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jaxws-tools.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jsr173_api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jsr181-api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/jsr250-api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/resolver.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/saaj-api.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/saaj-impl.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/sjsxp.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/stax-ex.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/streambuffer.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="hibernate-4.1.1">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/hibernate-core-4.1.1.Final.jar!/" />
@@ -394,21 +339,6 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="Java EE 6-Java EE 6">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="JPA 2.0-2.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
@@ -418,38 +348,15 @@
     </library>
     <library name="spring-3.1.0">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring-core.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-aop.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-asm.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-aspects.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-beans.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-context-support.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-context.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-expression.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-instrument-tomcat.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-instrument.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-jdbc.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-jms.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-orm.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-oxm.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-test.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-tx.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/aopalliance.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-3.1.0 (2)" type="spring">
-      <properties version="3.1.0" />
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring/spring-core.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/aopalliance.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/commons-logging.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-aop.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-asm.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-aspects.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-beans.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-context-support.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-context.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/spring/spring-core.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-expression.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-instrument-tomcat.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-instrument.jar!/" />
@@ -459,85 +366,6 @@
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-oxm.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-test.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/spring/spring-tx.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring/commons-logging.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring/aopalliance.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-data-jpa-1.0.0">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring-data-jpa-1.0.0.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-data-commons-core-1.1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-integration-2.0.5">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-core.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-event.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-feed.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-file.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-ftp.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-groovy.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-http.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-httpinvoker.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-ip.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-jdbc.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-jms.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-jmx.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-mail.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-rmi.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-security.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-sftp.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-stream.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-test.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-twitter.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-ws.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-xml.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-integration-xmpp.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-mvc-3.0.0.RELEASE">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-security-3.0.5">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-acl.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-aspects.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-cas-client.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-config.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-core.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-ldap.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-openid.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-taglibs.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/spring-security-web.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-webflow-2.3.0">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework.binding.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework.faces.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework.js.resources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework.js.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework.webflow.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="spring-ws-2.0.2">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/spring-ws.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
